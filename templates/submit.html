@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Steri</title>
+		<link rel="icon" href="./static/assets/pc.ico">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./static/assets/css/main.css" />
+    </head>
+
+    <body class="is-preload">
+        <section class="submit_message">
+            {% if submitted %}
+            <h5>You submitted the message succesfully!</h5>
+            {% else %}
+            <h5>Something went wrong!</h5>
+            {% endif %}
+            <a href="/" class="button primary">Go Back</a>
+        </section>
+    </body>
+</html>
